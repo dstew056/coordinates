@@ -34,29 +34,6 @@ class point : private coordinate{
 	}
 };
 
-// class coordinateList{
-// 	private :
-// 	coordinate lst[10];
-// 	int index = 0;
-
-// 	public : void add(int x, int y){
-// 		coordinate c;
-// 		c.x = x;
-// 		c.y = y;
-
-// 		if (index==sizeof(lst)/sizeof(lst[0])){
-// 			coordinate nlst[sizeof(lst)*2];
-// 			for(int i=0;i<index+1;i++){
-// 				nlst[i]=lst[i];
-// 			}
-// 			coordinate lst[sizeof(lst)*2];
-
-// 		}
-// 		lst[++index]= c;
-		
-// 	}
-// };
-
 int main(){
 	point c = point(0,0);
 	c.print();
